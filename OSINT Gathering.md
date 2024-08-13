@@ -3,19 +3,6 @@
 ## Abstract
 Throughout the information gathering process, Maltego was used by running transforms on different entities within the Tintictech organization. This provided a graphical interface with a layout of the organization’s infrastructure. Dig was a tool used to gather more information pertaining to the domains DNS query. Through this tool, more information on the DNS and Mail server’s addresses were uncovered. The next tool used was DNSENUM, which disclosed host names, server names, and other services. The Harvester was then used to brute force a long list of common DNS names to test the provided domain for any subdomains.
 
-## Table of Contents
-- Abstract
-- List of Figures
-- Introduction
-- Kali VM
-- Maltego
-- Dig
-- DNSENUM
-- theHarvester
-- Methodology
-- Conclusions and Recommendations
-- References
-
 ## List of Figures
 - **Figure 1**: Kali VM
 - **Figure 2**: Maltego Transform
