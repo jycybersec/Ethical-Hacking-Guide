@@ -5,6 +5,12 @@
 - **Win XP**: 192.168.48.131 
 - **Win 2k8**: 192.168.48.132  
 
+## Abstract
+This project focuses on the enumeration of networked systems using various tools to gather detailed information about users, shares, and system configurations. By leveraging tools such as Crackmapexec, Rpcclient, Enum4linux, and Smbclient, we systematically identified and analyzed shared resources and potential vulnerabilities on Windows XP and Windows 2k8 machines. The findings underscore the importance of comprehensive enumeration in cybersecurity assessments to uncover exploitable weaknesses in networked environments.
+
+## Introduction
+In the realm of cybersecurity, enumeration is a critical phase that involves gathering detailed information about networked systems to identify potential vulnerabilities and security weaknesses. This project aims to demonstrate the use of multiple enumeration tools to collect and analyze data from different machines within a network. We utilized Crackmapexec, Rpcclient, Enum4linux, and Smbclient to perform thorough assessments of Windows XP and Windows 2k8 systems. Each tool provided unique insights into the network’s structure, user accounts, shared resources, and security configurations. The results highlight the necessity of employing diverse tools to achieve a comprehensive understanding of the network’s security posture and to identify areas that require remediation.
+
 ## Crackmapexec
 Crackmapexec is a post-exploitation tool that helps automate the assessment of large Active Directory networks. It can be used to enumerate shares, users, and disks on a target machine. The -u switch specifies the username and -p specifies the password.
 
@@ -117,8 +123,8 @@ Smbclient is a command-line tool that allows users to access SMB/CIFS resources 
 ![image](https://github.com/user-attachments/assets/99506bf5-4b4c-41b5-82d4-d39f60879032)
   - Connects to the Windows 2k8 machine and navigates through its shared directories.
 
-## Summary
-Using Crackmapexec, we enumerated shares, users, and disks on both Win XP and Win 2k8 machines. Rpcclient was then utilized to gather detailed information about users, shares, and system details. Enum4linux provided further enumeration of users, shares, and SIDs on both machines. Finally, Smbclient allowed us to connect to and navigate through shared directories on both Win XP and Win 2k8. This comprehensive approach highlighted the importance of using multiple tools to gather extensive information about networked systems, emphasizing the vulnerabilities and shared resources that can be exploited in a cybersecurity context.
+## Methodology
+This report focuses on active enumeration methodologies. Throughout these tests, the focus was on gathering detailed information about networked systems to identify potential vulnerabilities and security weaknesses. Using a variety of enumeration tools, such as Crackmapexec, Rpcclient, Enum4linux, and Smbclient, information was systematically collected and analyzed. This approach provided comprehensive insights into the network’s structure, user accounts, shared resources, and security configurations, which are crucial for uncovering exploitable weaknesses in networked environments.
 
 ## References
 - Crackmapexec. (n.d.). Crackmapexec [Software]. Retrieved June 6, 2024, from https://github.com/byt3bl33d3r/CrackMapExec
