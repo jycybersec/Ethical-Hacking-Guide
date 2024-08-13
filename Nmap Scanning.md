@@ -10,7 +10,7 @@
 - **Win XP**:  ![image](https://github.com/user-attachments/assets/090fd6a3-82f9-4f9f-9db4-e17f0f6e8821)
 
 ## Abstract
-In this project, Nmap was used to scan three virtual machines (VMs) from a Kali VM. The scans aimed to identify open ports, services, and potential vulnerabilities. The results were captured and analyzed to understand the network infrastructure and security posture of the VMs.
+In this project, Nmap is used to scan three virtual machines (VMs) from a Kali VM. The scans aim to identify open ports, services, and potential vulnerabilities. The results were captured and analyzed to understand the network infrastructure and security posture of the VMs.
 
 ## Introduction
 This report details the process of using Nmap for network port scanning and vulnerability assessment. The objective was to perform active reconnaissance on three VMs using various Nmap switches and capture the results for analysis.
@@ -30,29 +30,29 @@ The Kali VM was used as the primary tool for conducting the scans. It provided t
 ### Results:
 #### MSF Linux:
 
-The initial scan on MSF Linux revealed several open ports and services.
+The initial scan on MSF Linux reveals several open ports and services.
 ![image](https://github.com/user-attachments/assets/170c8e44-34dc-4b69-badd-b3fbfbd65d5c)
 
-The aggressive scan provided detailed information on the operating system.
+The aggressive scan provides detailed information on the operating system.
 ![image](https://github.com/user-attachments/assets/f5d895b5-75eb-4dae-9ad8-23269d684a41)
 ![image](https://github.com/user-attachments/assets/0787d574-32f4-48fd-ba01-11315119d8dd)
 ![image](https://github.com/user-attachments/assets/da6d8abf-493a-49eb-90d3-12a74eab008c)
 
-Script scanning identified additional potential security issues.
+Script scanning identifies additional potential security issues.
 ![image](https://github.com/user-attachments/assets/25656e47-2724-4694-8ca6-f3bf57fa4e40)
 ![image](https://github.com/user-attachments/assets/4d59dbcc-76ab-47d2-802a-a2cc55f1000a)
 
 
 #### MSF Win2k8:
 
-The initial scan on MSF Win2k8 revealed several open ports and services.
+The initial scan on MSF Win2k8 reveals several open ports and services.
 ![image](https://github.com/user-attachments/assets/c4dd15ca-fe57-423f-8902-9205c3d4c328)
 ![image](https://github.com/user-attachments/assets/3595bd78-6337-43ee-b057-b088e902c6a0)
 
-The aggressive scan provided detailed information on the operating system.
+The aggressive scan provides detailed information on the operating system.
 ![image](https://github.com/user-attachments/assets/9de76a0f-acd3-4fbe-bf64-76ceb2a0b2de)
 
-Script scanning identified additional potential security issues
+Script scanning identifies additional potential security issues
 ![image](https://github.com/user-attachments/assets/1dc07be7-b5f6-44a0-9e41-c6bf97ab4ab9)
 ![image](https://github.com/user-attachments/assets/dbc3419a-17d5-42b5-8a82-4b35dd986973)
 ![image](https://github.com/user-attachments/assets/3d944ffd-4b5d-4c39-99c5-acae5d067bfe)
@@ -60,14 +60,14 @@ Script scanning identified additional potential security issues
 
 #### Win XP:
 
-The initial scan on Win XP revealed several open ports and services.
+The initial scan on Win XP reveals several open ports and services.
 ![image](https://github.com/user-attachments/assets/bbf71475-17e8-494d-b6c3-0c15f4b9a7bd)
 
-The aggressive scan provided detailed information on the operating system.
+The aggressive scan provides detailed information on the operating system.
 ![image](https://github.com/user-attachments/assets/cd769ddb-684d-4fda-88e2-96bde8a1eed7)
 ![image](https://github.com/user-attachments/assets/491ef29e-9408-4c58-98e6-395b9505f7e3)
 
-Script scanning identified additional potential security issues.
+Script scanning identifies additional potential security issues.
 ![image](https://github.com/user-attachments/assets/fff41090-37c2-4b44-8676-3cdbbbd1aff2)
 ![image](https://github.com/user-attachments/assets/f2b4de9a-2366-495a-854e-c525645060d3)
 
@@ -76,7 +76,7 @@ Script scanning identified additional potential security issues.
 To identify CVEs, the following Nmap command was used:
 `sudo nmap -sV -O --script=vulners x.x.x.x`
 
-This scan provided detailed information on each vulnerability, including its severity and potential impact. By analyzing these results, we aimed to understand the security posture of each system and identify areas that require remediation.
+This scan provides detailed information on each vulnerability, including its severity and potential impact. By analyzing these results, we aim to understand the security posture of each system and identify areas that require remediation.
 
 ### Results:
 #### MSF Linux:
