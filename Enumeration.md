@@ -118,6 +118,7 @@ Smbclient is a command-line tool that allows users to access SMB/CIFS resources 
   - Connects to the Windows 2k8 machine and navigates through its shared directories.
 
 ## Summary
+Using Crackmapexec, we enumerated shares, users, and disks on both Win XP and Win 2k8 machines. Rpcclient was then utilized to gather detailed information about users, shares, and system details. Enum4linux provided further enumeration of users, shares, and SIDs on both machines. Finally, Smbclient allowed us to connect to and navigate through shared directories on both Win XP and Win 2k8. This comprehensive approach highlighted the importance of using multiple tools to gather extensive information about networked systems, emphasizing the vulnerabilities and shared resources that can be exploited in a cybersecurity context.
 
 ## References
 - Crackmapexec. (n.d.). Crackmapexec [Software]. Retrieved June 6, 2024, from https://github.com/byt3bl33d3r/CrackMapExec
