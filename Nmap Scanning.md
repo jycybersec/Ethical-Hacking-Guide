@@ -1,13 +1,10 @@
 # Network Port Scanning – Nmap
 
 ## IP Addresses:
-- **Kali**:  ![image](https://github.com/user-attachments/assets/f685eba4-c78e-4f71-a62f-0057797f9955)
-
-- **MSF Linux**:  ![image](https://github.com/user-attachments/assets/abf994c7-599b-4055-a872-3fc7d1128825)
-
-- **MSF Win2k8**:  ![image](https://github.com/user-attachments/assets/b979c97e-7c3f-494b-96d4-7eb2e836ce22)
-
-- **Win XP**:  ![image](https://github.com/user-attachments/assets/090fd6a3-82f9-4f9f-9db4-e17f0f6e8821)
+- **Kali**: 192.168.48.129
+- **Metasploitable Linux**: 192.168.48.130
+- **Metasploitable Win2k8**: 192.168.48.132
+- **Windows XP**: 192.168.48.131
 
 ## Abstract
 In this project, Nmap is used to scan three virtual machines (VMs) from a Kali VM. The scans aim to identify open ports, services, and potential vulnerabilities. The results were captured and analyzed to understand the network infrastructure and security posture of the VMs.
