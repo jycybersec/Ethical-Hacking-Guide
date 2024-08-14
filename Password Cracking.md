@@ -7,7 +7,7 @@ Throughout the password cracking process, various tools and techniques were used
 This report was developed using different tools and techniques to crack hashed passwords from two different hash files. The purpose of this exercise is to understand the importance of different password cracking methods and tools. Performing these tasks provided me with crucial information that can be used to understand the security posture of these systems.
 
 ## VM IPs
-### Kali IP: 192.168.48.129
+- Kali IP: 192.168.48.129
 
 ## Hash Files
 ### linpasshash
