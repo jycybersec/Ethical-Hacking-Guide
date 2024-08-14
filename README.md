@@ -12,3 +12,4 @@ The methods are seperated in files, titled by the technique being performed.
 - <b><a href="https://github.com/jycybersec/Ethical-Hacking-Guide/blob/main/Enumeration.md"> Enumeration</a> 🗄️</b></br> </br>
 - <b><a href="https://github.com/jycybersec/Ethical-Hacking-Guide/blob/main/Metasploit%20Exploitation.md"> Metasploit Exploitation</a> ☠️</b></br> </br>
 - <b><a href="https://github.com/jycybersec/Ethical-Hacking-Guide/blob/main/Password%20Hash%20Gathering.md"> Password Hash Gathering</a> #️⃣</b></br> </br>
+- <b><a href="https://github.com/jycybersec/Ethical-Hacking-Guide/blob/main/Password%20Cracking.md"> Password Cracking</a> 🍘</b></br> </br>
