@@ -7,7 +7,7 @@ Throughout the password hash gathering process, various exploits were used on di
 This report was developed using different exploits to gather hashed passwords from three different virtual machines. The purpose of this exercise is to understand the importance of patching and removing vulnerable services/applications, because of the information (hashes) that can be gathered and used in further attacks.
 
 ## Kali VM
-Kali IP: 192.168.48.129
+- Kali IP: 192.168.48.129
 
 ## Metasploitable Linux VM
 Metasploitable Linux IP: 192.168.48.130
