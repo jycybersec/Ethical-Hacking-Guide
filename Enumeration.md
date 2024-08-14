@@ -1,15 +1,15 @@
 # Enumeration Assignment
 
-## IP Addresses
-- **Kali**: 192.168.48.129   
-- **Win XP**: 192.168.48.131 
-- **Win 2k8**: 192.168.48.132  
-
 ## Abstract
 This project focuses on the enumeration of networked systems using various tools to gather detailed information about users, shares, and system configurations. By leveraging tools such as Crackmapexec, Rpcclient, Enum4linux, and Smbclient, we systematically identified and analyzed shared resources and potential vulnerabilities on Windows XP and Windows 2k8 machines. The findings underscore the importance of comprehensive enumeration in cybersecurity assessments to uncover exploitable weaknesses in networked environments.
 
 ## Introduction
 In the realm of cybersecurity, enumeration is a critical phase that involves gathering detailed information about networked systems to identify potential vulnerabilities and security weaknesses. This project aims to demonstrate the use of multiple enumeration tools to collect and analyze data from different machines within a network. We utilized Crackmapexec, Rpcclient, Enum4linux, and Smbclient to perform thorough assessments of Windows XP and Windows 2k8 systems. Each tool provided unique insights into the network’s structure, user accounts, shared resources, and security configurations. The results highlight the necessity of employing diverse tools to achieve a comprehensive understanding of the network’s security posture and to identify areas that require remediation.
+
+## IP Addresses
+- Kali: 192.168.48.129   
+- Win XP: 192.168.48.131 
+- Win 2k8: 192.168.48.132  
 
 ## Crackmapexec
 Crackmapexec is a post-exploitation tool that helps automate the assessment of large Active Directory networks. It can be used to enumerate shares, users, and disks on a target machine. The -u switch specifies the username and -p specifies the password.
