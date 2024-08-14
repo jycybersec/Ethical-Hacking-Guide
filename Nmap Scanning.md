@@ -1,17 +1,17 @@
 # Network Port Scanning – Nmap
 
-## IP Addresses:
-- **Kali**: 192.168.48.129
-- **Metasploitable Linux**: 192.168.48.130
-- **Metasploitable Win2k8**: 192.168.48.132
-- **Windows XP**: 192.168.48.131
-
 ## Abstract
 In this project, Nmap is used to scan three virtual machines (VMs) from a Kali VM. The scans aim to identify open ports, services, and potential vulnerabilities. The results were captured and analyzed to understand the network infrastructure and security posture of the VMs.
 
 ## Introduction
 This report details the process of using Nmap for network port scanning and vulnerability assessment. The objective was to perform active reconnaissance on three VMs using various Nmap switches and capture the results for analysis.
 
+## IP Addresses:
+- Kali: 192.168.48.129
+- Metasploitable Linux: 192.168.48.130
+- Metasploitable Win2k8: 192.168.48.132
+- Windows XP: 192.168.48.131
+  
 ## Kali VM
 The Kali VM was used as the primary tool for conducting the scans. It provided the necessary environment and tools for network scanning and analysis.
 
