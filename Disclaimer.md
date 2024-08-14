@@ -1,4 +1,4 @@
-# !DISCLAIMER!
+# DISCLAIMER
 
 This guide is intended for **educational purposes only**. It is designed to help users understand the concepts of ethical hacking and the potential vulnerabilities that can exist in computer systems and networks.
 
