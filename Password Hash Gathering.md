@@ -4,7 +4,7 @@
 Throughout the password hash gathering process, various exploits were used on different virtual machines within the lab environment. This provided a practical understanding of how to gather hashed passwords from different systems. The vsFTP vulnerability was used to access the Linux machine's command line and transfer the `/etc/shadow` file. The psex exploit was used on the Windows XP machine to pull user hashes, and the eternalblue exploit was used on the Win2k8 machine to pull user hashes.
 
 ## Introduction
-This report was developed using different exploits to gather hashed passwords from three different virtual machines. The purpose of this exercise is to understand the importance of patching and removing vulnerable services/applications. Performing these tasks provided me with crucial information that can be used to understand the security posture of these systems.
+This report was developed using different exploits to gather hashed passwords from three different virtual machines. The purpose of this exercise is to understand the importance of patching and removing vulnerable services/applications, because of the information (hashes) that can be gathered and used in further attacks.
 
 ## Kali VM
 Kali IP: 192.168.48.129
